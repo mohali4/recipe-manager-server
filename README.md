@@ -26,6 +26,9 @@ http://127.0.0.1:8000/admin
 از admin برای یوزر و پسورد استفاده کنید
 
 راهنمای api :
+
+
+```
 material data model : {
     id:int # readonly
    ,name:cahr(max:20)
@@ -63,3 +66,4 @@ PUT: /material/{int:pk} data:recipe # change a specefic recipe
 POST: /material/ data:recipe # create a recipe and shows that
 
 GET: /material/q data:recipe_query # list recipes filtered by queryset
+```
