@@ -22,5 +22,5 @@ router.register(r'material',MaterialVS)
 router.register(r'recipe',recipeVS)
 urlpatterns = [
     path('',include(router.urls)),
-    path('materials/q',recipeSearchVS.as_view(), name='query')
+    path('recipe/q',recipeSearchVS.as_view(), name='query')
 ]
