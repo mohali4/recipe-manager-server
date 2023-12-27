@@ -66,5 +66,5 @@ DELETE: /material/{int:pk} # delete a specefic recipe
 PUT: /material/{int:pk} data:recipe # change a specefic recipe
 POST: /material/ data:recipe # create a recipe and shows that
 
-GET: /material/q data:recipe_query # list recipes filtered by queryset
+GET: /recipe/q data:recipe_query # list recipes filtered by queryset
 ```
